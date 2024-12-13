@@ -17,7 +17,7 @@
 #include "main.h"
 
 #define FEE_START_ADDRESS	((uint32_t)0x0800F000)  // FEE Start Address (in Flash Memory)
-#define FEE_PAGE_SIZE		((uint32_t)0x400)       // FEE Page Size 400 = 1kB (Default Page Size For STM32F103)
+#define FEE_PAGE_SIZE		((uint32_t)0x100)       // FEE Page Size 400 = 1kB (Default Page Size For STM32F103)
 #define FEE_BUFFER_LEN		(FEE_PAGE_SIZE / 2U)
 
 //-----[ Prototypes For All User External Functions ]-----
