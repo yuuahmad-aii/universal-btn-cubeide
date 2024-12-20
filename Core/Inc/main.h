@@ -31,7 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#define BOARD_1 0
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -92,7 +92,7 @@ void Error_Handler(void);
 #define BTN_8_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+#define BOARD_1 0
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
